@@ -1,8 +1,8 @@
 # sort.js——JS实现的排序算法
 
-### sort.js对常用的十大排序算法进行JavaS的实现
 
->1.冒泡排序（Bubble Sort）
+
+### 1.冒泡排序（Bubble Sort）
 
 ```
 function BubbleSort(arr) {
@@ -20,7 +20,7 @@ function BubbleSort(arr) {
 }
 ```
 
->2.选择排序（Selection Sort）——表现最稳定的排序算法之一。不占用额外的内存空间
+### 2.选择排序（Selection Sort）——表现最稳定的排序算法之一。不占用额外的内存空间
 
 ```
 function SelectionSort(arr) {
@@ -41,7 +41,7 @@ function SelectionSort(arr) {
 }
 ```
 
->3.插入排序（Insertion Sort）
+### 3.插入排序（Insertion Sort）
 
 ```
 function InsertionSort(arr) {
@@ -60,7 +60,7 @@ function InsertionSort(arr) {
 }
 ```
 
->4、希尔排序（Shell Sort）又称“缩小增量排序”
+### 4、希尔排序（Shell Sort）又称“缩小增量排序”
 
 ```
 function ShellSort(arr) {
@@ -83,7 +83,7 @@ function ShellSort(arr) {
 }
 ```
 
->5、归并排序（Merge Sort）——一种稳定的排序方法。性能不受输入数据的影响，但表现比选择排序好的多。代价是需要额外的内存空间。
+### 5、归并排序（Merge Sort）——一种稳定的排序方法。性能不受输入数据的影响，但表现比选择排序好的多。代价是需要额外的内存空间。
 
 ```
 function MergeSort(arr) {  // 采用自上而下的递归方法
@@ -116,7 +116,7 @@ function merge(left, right) {
 }
 ```
 
->6、快速排序（Quick Sort）
+### 6、快速排序（Quick Sort）
 
 ```
 function QuickSort(arr, left, right) {
@@ -153,7 +153,7 @@ function swap(arr, i, j) {
 }
 ```
 
->7、堆排序（Heap Sort）
+### 7、堆排序（Heap Sort）
 
 ```
 var len;    // 因为声明的多个函数都需要数据长度，所以把len设置成为全局变量
@@ -202,7 +202,7 @@ function HeapSort(arr) {
 }
 ```
 
->8、计数排序（Counting Sort）
+### 8、计数排序（Counting Sort）
 
 ```
 function CountingSort(arr, maxValue) {
@@ -229,7 +229,7 @@ function CountingSort(arr, maxValue) {
 }
 ```
 
->9、桶排序（Bucket Sort）
+### 9、桶排序（Bucket Sort）
 
 ```
 function BucketSort(arr, bucketSize) {
@@ -274,7 +274,7 @@ function BucketSort(arr, bucketSize) {
 }
 ```
 
->10、基数排序（Radix Sort）
+### 10、基数排序（Radix Sort）
 
 ```
 var counter = [];
